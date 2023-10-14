@@ -13,7 +13,7 @@ const Search = () => {
       typing or there is a period of inactivity in typing,-
       preventing excessive and unnecessary search requests.
   */
-  const [debouncedValue] = useDebounce(text, 500);
+  const [debouncedValue] = useDebounce(text, 1000);
 
   useEffect(() => {
     if (debouncedValue) setSearchTerm(debouncedValue);

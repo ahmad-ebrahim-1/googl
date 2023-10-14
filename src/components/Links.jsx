@@ -10,7 +10,7 @@ const links = [
 
 const Links = () => {
   return (
-    <div className="flex flex-wrap sm:justify-around justify-between items-center gap-8 max-sm:gap-4 mt-4">
+    <div className="flex flex-wrap sm:justify-around justify-between items-center max-sm:gap-3 gap-8 mt-4">
       {links.map(({ url, text }) => (
         <NavLink
           key={text}
