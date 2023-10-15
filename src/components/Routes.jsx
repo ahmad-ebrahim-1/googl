@@ -7,7 +7,7 @@ const Routes = () => {
   return (
     <div className="p-4">
       <Router>
-        <Route path="/" element={<Navigate to="/search" />} />
+        <Route path="/googl" element={<Navigate to="/search" />} />
         <Route path="/search" element={<Results />} />
         <Route path="/images" element={<Results />} />
         <Route path="/news" element={<Results />} />

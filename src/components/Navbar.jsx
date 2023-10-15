@@ -10,7 +10,7 @@ const Navbar = ({ setDarkTheme, darkTheme }) => {
     border-b dark:border-gray-700 border-gray-200"
     >
       <div className="flex justify-between items-center space-x-5 w-screen">
-        <Link to="/">
+        <Link to="/googl">
           <p
             className="text-2xl bg-blue-500 font-bold text-white py-1 px-2 rounded dark:bg-gray-500
           dark:text-gray-900"
